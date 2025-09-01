@@ -1,0 +1,155 @@
+.body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+      background-color: #eceaff;
+}
+.container{
+    height: 92vh;
+    width: 80%;
+  display: flex;
+   justify-content: center;
+   border-radius: 10px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.leftblock{
+width: 50%;
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+      padding-top: 20px;
+      padding-left: 80px;
+}
+.rightblock{
+width: 50%;
+
+}
+.leftblock h1{
+    font-size: x-large;
+    font-weight: 400;
+  margin-bottom: 40px;
+}
+.leftblock h3{
+    font-size: larger;
+    font-weight: 700;
+ margin-bottom: 20px;
+}
+.inputtype input{
+display: block;
+margin-bottom: 15px;
+height: 30px;
+width: 200px;
+border-radius: 5px;
+background-color:#C3BDBD;
+border: none;
+outline: none;
+padding: 5px;
+}
+.submit{
+width: 195px;
+}
+.submit input{
+    width: 100%;
+    height: 30px;
+    font-size:large;
+    border-radius:5px;
+    outline: none;
+    border: none;
+    background-color:#D17D3D;
+    cursor: pointer;
+}
+.rightblock{
+  padding-top: 8px;
+}
+.rightblock img{
+  width: 320px;
+ height: 340px;
+ border-radius: 5px;
+} 
+
+
+
+
+
+
+@media  (max-width: 875px) {
+.container{
+    display: flex;
+      flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     height:auto;
+    width: 95%;
+     border-radius: 5px; 
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.rightblock{
+  width: 100%;
+   display: flex;
+  justify-content: center;
+    padding-left: 72px;
+}
+.leftblock{
+  width: 100%;
+   display: flex;
+   justify-content: center;
+ 
+}
+.rightblock img {
+  width: 206px;
+  height: 240px;
+  border-radius: 5px;
+ 
+} 
+}
+
+
+
+
+@media  (max-width: 400px) {
+.container{
+  padding: 0;
+    display: flex;
+      flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     height:auto;
+    width: 100%;
+     border-radius: 5px; 
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.rightblock{
+  width: 100%;
+   display: flex;
+  justify-content: center;
+    padding-left: 72px;
+}
+.leftblock{
+  width: 100%;
+   display: flex;
+   justify-content: center;
+   
+}
+.rightblock img {
+  width: 206px;
+  height: 240px;
+  border-radius: 5px;
+ 
+} 
+
+.leftblock h1{
+    font-size: large;
+    font-weight: 200;
+  margin-bottom: 20px;
+}
+.leftblock h3{
+    font-size: larger;
+    font-weight: 500;
+ margin-bottom: 10px;
+}
+
+
+}
+
+
