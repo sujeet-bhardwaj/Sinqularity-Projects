@@ -1,0 +1,135 @@
+.hero{
+   display: flex;
+   justify-content: center;
+   padding: 20px 50px;
+  margin-top: 50px;
+  width:100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: red;
+}
+.left{
+  width:60%;
+   display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left:10px; 
+    background-color: blue; 
+   
+}
+.right{
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  background-color: yellow;
+ 
+}
+.right img{
+  margin-top:10px; 
+  width: 210px;
+  height: 230px;
+  border-radius: 50%;  
+  border: 8px solid white;
+}
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  gap:20px;
+}
+.connect{
+  padding: 10px 15px;
+  border-radius:50px;
+ background: linear-gradient(267deg,#DA7C25,#B923E1);
+  cursor: pointer;
+  transform: 0.3s;
+}
+.resume{
+  position: relative;
+  right:40px;
+ 
+}
+
+.resume a{
+  padding: 10px 15px;
+  border-radius:50px;
+  border: 2px solid #fff;
+  cursor: pointer;
+    text-decoration: none;
+  color: white;
+}
+.resume a:hover{
+    border: 2px solid #B415FF;
+}
+.connect:hover{
+  transform: scale(1.03);
+}
+.connect a{
+  text-decoration: none;
+}
+.text p{
+  margin-top: 5px;
+  line-height:20px;
+
+}
+.text h1 span{
+ background: linear-gradient(267deg,#DA7C25 50%, #B923E1 90%);
+ background-clip:text;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+.text h2 span{
+ background: linear-gradient(267deg,#DA7C25 50%, #B923E1 90%);
+ background-clip:text;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+@media (max-width:768px){
+  .buttons{
+    flex-direction: column;
+    align-items: flex-start;
+    gap:20px;
+  }
+  .resume{
+    right: 0;
+  }
+.right{
+   display: flex;
+   justify-content: flex-end; 
+}
+.hero{
+  width:100vw;
+  padding: 10px 20px;
+}
+.right img{
+  margin-top:10px; 
+  width: 150px;
+  height: auto;
+  border-radius: 50%;  
+  border: 4px solid white;
+}
+.left{
+  padding-left: 5px;
+}
+
+}
+
+
+@media (max-width:450px){
+  .hero{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+  }
+ .left{
+  display: flex;
+  justify-content: center;
+ }
+
+
+}
+
+
+ 
+
+

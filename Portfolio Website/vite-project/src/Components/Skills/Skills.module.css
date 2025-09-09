@@ -1,0 +1,94 @@
+.skillcontainer{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr  1fr;
+  gap: 20px;
+  padding: 20px 50px;
+}
+.title{
+  text-align: center;
+   font-size: x-large;
+    font-weight: 800;
+      background: linear-gradient(267deg,#DA7C25 50%,#B923E1); 
+  background-clip:text;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom:5px;
+}
+.block {
+  background:black;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+.skillsGrid {
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  gap:5px;
+  margin-top:5px;
+}
+.skillLogo {
+  width: 20px;
+  height: 20px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 6px 10px;
+    border-radius:7px;
+    background-color: rgb(28, 41, 41);
+    gap:5px;
+}
+ .name{
+     font-size: 10px;
+     font-weight: 500;  
+}
+
+.skill{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    font-size: x-large;
+    font-weight: 800;
+      background: linear-gradient(267deg,#DA7C25 50%,#B923E1); 
+  background-clip:text;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 5px;
+}
+.hr{ 
+   outline: none;
+    border: none;
+    width: 110%;
+    height: 6px;
+    border-radius: 50px;
+     background: linear-gradient(267deg,#DA7C25,#B923E1);
+     transition: 0.3s;
+     cursor: pointer;
+}
+.hr:hover{
+  transform: scale(1.1);
+}
+
+@media (max-width:768px){
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns:1fr;
+  gap: 20px;
+  padding: 20px 50px;
+}
+
+
+}
+
+

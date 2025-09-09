@@ -1,0 +1,126 @@
+.mywork{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:20px;
+  padding: 20px 50px;
+}
+.box{
+  width: 100%;
+  background:black;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding:10px;
+  transition: 0.3s;
+  display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.box:hover{
+transform: scale(1.03);
+border: 2px solid  #ff00ff;
+border-radius: 10px; 
+}
+.container img{
+     width: 300px;
+     height:auto;
+     cursor: pointer;
+    margin: 5px;
+}
+.tech{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  cursor: pointer;
+  gap:5px;
+  margin-bottom:5px;
+}
+ .techno {
+   padding: 8px 10px;
+   border-radius: 10px;
+   background-color: rgb(50, 88, 152);
+   border: 2px solid #fff;
+} 
+.bottom h2{
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+    background: linear-gradient(267deg,#DA7C25 50%,#B923E1); 
+  background-clip:text;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+}
+.bottom h3{
+  text-align: center;
+  margin-bottom: 5px;
+  color: #ff00ff;
+}
+.bottom p{
+  text-align: center;
+  margin-bottom: 5px;
+}
+.git{
+  text-align: center;
+}
+.git a{
+  text-decoration: none;
+  color: #fff;
+}
+.title h1{
+  font-size: larger;
+  font-weight: 500;
+}
+.title{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    font-size: x-large;
+    font-weight: 800;
+      background: linear-gradient(267deg,#DA7C25 50%,#B923E1); 
+  background-clip:text;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 5px;
+}
+.hr{ 
+   outline: none;
+    border: none;
+    width: 110%;
+    height: 6px;
+    border-radius: 50px;
+     background: linear-gradient(267deg,#DA7C25,#B923E1);
+     transition: 0.3s;
+     cursor: pointer;
+}
+.hr:hover{
+  transform: scale(1.1);
+}
+
+@media (max-width:768px){
+
+.container{
+  display: grid;
+  grid-template-columns:1fr;
+  padding: 20px 50px;
+}
+
+}
+@media (max-width:416px){
+  .container{
+  display: grid;
+ 
+  padding: 10px 20px;
+}
+
+
+
+}
+
+

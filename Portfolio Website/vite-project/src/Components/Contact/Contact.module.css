@@ -1,0 +1,158 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.section{
+display: flex;
+gap: 50px;
+padding: 20px 50px;
+}
+.left{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.left h1{
+font-size: 25px;
+font-weight: 500;
+background: linear-gradient(270deg,#DF8908 80%,#B415FF 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.left p{
+   color: #D8D8D8;
+   font-size: 20px;
+   line-height: 20px;
+}
+.details{
+display: flex;
+font-size: 20px;
+gap: 20px;
+}
+
+.rightform{
+    display: flex;
+     flex-direction: column;
+     align-items: start;
+    gap:10px;
+}
+.rightform label{
+    color: #D8D8D8;
+    font-size: large;
+    font-weight: 500;
+}
+.rightform input{
+    border: none;
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 4px;
+    background: #32323c;
+    color: #a0a0a0;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+.rightform textarea{
+width: 300px;
+border: none;
+padding: 25px;
+border-radius:4px;
+background: #32323c;
+color: #a0a0a0;
+font-size: 15px;
+}
+.submit{
+    border: none;
+    color: white;
+    border-radius: 50px;
+    background: linear-gradient(267deg,#DA7C25 50%,#B923E1); 
+    font-size: 15px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.submit:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.social{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.social a{
+     text-decoration: none;
+     color:white;
+}
+.social a:hover{
+  transform: scale(1.05);
+}
+
+.title{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    font-size: x-large;
+    font-weight: 800;
+      background: linear-gradient(267deg,#DA7C25 50%,#B923E1); 
+  background-clip:text;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 5px;
+}
+.hr{ 
+   outline: none;
+    border: none;
+    width: 120%;
+    height: 6px;
+    border-radius: 50px;
+     background: linear-gradient(267deg,#DA7C25,#B923E1);
+     transition: 0.3s;
+     cursor: pointer;
+}
+.hr:hover{
+  transform: scale(1.1);
+}
+.title h1{
+  font-size: larger;
+  font-weight: 500;
+}
+
+
+@media (max-width:768px){
+
+.section{
+display: flex;
+flex-direction: column;
+padding: 20px 50px;
+}
+.left{
+  text-align: center;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
