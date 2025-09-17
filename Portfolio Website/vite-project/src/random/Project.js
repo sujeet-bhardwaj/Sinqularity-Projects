@@ -14,7 +14,7 @@ export const projects = [
         "The Quiz Manager Application is a full-stack web platform designed to create, manage, and participate in quizzes seamlessly.",
       image:Quiz,
       tags: ["ReactJS", "Express","Nodejs","MongoDb","HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
+      github: "https://github.com/sujeet-bhardwaj/Quiz-Manger-Application",
     },
     {
       id: 1,
@@ -23,7 +23,7 @@ export const projects = [
         "The MERN To-Do App is a full-stack task management application that helps users create, organize, and track their daily tasks. .",
       image: todo,
       tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
+      github: "https://github.com/sujeet-bhardwaj/Todo-App",
     },
     {
       id: 2,
@@ -32,8 +32,8 @@ export const projects = [
         "The Tic-Tac-Toe Game is a classic two-player game (X and O) built as an interactive web application.",
       image: TicTacToe,
       tags: ["React JS","HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
+      github: "https://github.com/sujeet-bhardwaj/Tic-Tac-Toe-",
+    
     },
     {
       id: 3,
@@ -43,7 +43,7 @@ export const projects = [
       image: npmLogo,
       tags: ["React JS", "Express","Nodejs","MongoDb","HTML", "CSS", "JavaScript" ],
       github: "https://github.com/codingmastr/cmtk-email-validator",
-      webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+      webapp: "https://github.com/sujeet-bhardwaj?tab=repositories",
     },
     {
       id: 4,
@@ -52,7 +52,7 @@ export const projects = [
         "The Visual Clock is a simple yet interactive web application that displays the current time in real-time using both digital and analog (visual) formats.",
       image: taskremLogo,
       tags: ["JavaScript","HTML", "CSS"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
+      github: "https://github.com/sujeet-bhardwaj/Visual-Clock",
    
     },
     {
@@ -62,7 +62,7 @@ export const projects = [
         "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration.",
       image: cmLogo,
       tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-      github: "https://codingmasterweb.in/",
+      github: "https://github.com/sujeet-bhardwaj?tab=repositories",
     },
   ];  
 
