@@ -5,23 +5,19 @@
   margin-top: 50px;
   width:100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: red;
+   
 }
 .left{
   width:60%;
    display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding-left:10px; 
-    background-color: blue; 
-   
+    padding-left:10px;  
 }
 .right{
   width: 40%;
   display: flex;
-  justify-content: flex-end;
-  background-color: yellow;
- 
+  justify-content: flex-end; 
 }
 .right img{
   margin-top:10px; 
@@ -116,15 +112,20 @@
 
 @media (max-width:450px){
   .hero{
+    width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 15px;
-
   }
- .left{
+.left{
+  width: 100%;
+}
+.right{
+  width: 100%;
   display: flex;
   justify-content: center;
- }
+}
 
 
 }

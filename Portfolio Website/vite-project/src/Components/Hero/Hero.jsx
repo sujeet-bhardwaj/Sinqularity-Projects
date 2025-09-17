@@ -11,7 +11,7 @@ const Hero = () => {
 <p>
   I'm a passionate Full Stack Developer specializing in creating scalable, 
   high-performance web applications with the MERN stack. 
-  I love turning ideas into interactive, user-friendly solutions.
+ 
 </p>
       </div>
         <div className={style.buttons}>
@@ -22,7 +22,7 @@ const Hero = () => {
                     </div>
              <div className={style.resume}>
   <a href="https://drive.google.com/file/d/1Y5S4IDYs9sMqjLB_0abZJhP8zCUVQ61F/view?usp=sharing" download  target='_blank'>
-   Download CV
+   My Resume
   </a>
       </div>
         </div>

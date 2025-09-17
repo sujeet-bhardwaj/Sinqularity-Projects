@@ -17,7 +17,7 @@ const About = () => {
         <div className={style.aboutright}>
           <div className={style.aboutpara}>
             <p>
-              I’m a Full Stack Developer who loves solving problems with code. My journey in web development has been driven by curiosity and creativity—whether it’s building APIs, designing UIs, or deploying apps to the cloud. I’m always learning, growing, and excited to collaborate on meaningful projects.
+              I’m a Full Stack Developer who loves solving problems with code. My journey in web development has been driven by curiosity and creativity—whether it’s building APIs, designing UIs, or deploying apps to the cloud.
             </p>
           </div>
         

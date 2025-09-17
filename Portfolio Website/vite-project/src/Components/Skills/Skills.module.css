@@ -6,7 +6,7 @@
      font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .container {
-  width: 100%;
+  width:100%;
   display: grid;
   grid-template-columns: 1fr  1fr;
   gap: 20px;
@@ -81,12 +81,37 @@
 
 @media (max-width:768px){
 .container {
-  width: 100%;
+  width:100%;
   display: grid;
   grid-template-columns:1fr;
   gap: 20px;
-  padding: 20px 50px;
+  padding: 10px 20px;
 }
+.block {
+  background:black;
+  padding: 5px;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+}
+
+@media(max-width:450px){
+.container {
+  width:100%;
+  display: grid;
+  grid-template-columns:1fr;
+  gap: 10px;
+  padding: 5px 10px;
+}
+.skillsGrid {
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  gap:5px;
+  margin-top:5px;
+}
+
 
 
 }
