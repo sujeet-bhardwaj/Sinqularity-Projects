@@ -61,7 +61,7 @@ color: #ff6600;
     display: none;
   }
 .menu{
-  display: none;
+    display:none;
     flex-direction: column;
     background: #464444;
     position: absolute;

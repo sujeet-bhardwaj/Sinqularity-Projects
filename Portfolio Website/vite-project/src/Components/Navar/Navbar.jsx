@@ -16,15 +16,14 @@ useEffect(() => {
         setScroll(false);
       }
     };
-
   window.addEventListener("scroll", handleScroll);
-
-
   return () => {
     window.removeEventListener("scroll", handleScroll);
   };
   }, []);
-
+  const handleMenuItemClick = () => {
+    setMenuOpen(false);
+  };
 
   return (
     <div className={`${style.navbar} ${Scroll ? style.scrolled : ""}`}>
@@ -42,12 +41,13 @@ useEffect(() => {
             smooth={true} 
             duration={500} 
             offset={-70}
+             onClick={handleMenuItemClick}
           >
             About Me
           </Link>
         </li>
         <li>
-          <Link to="skills" smooth={true} duration={500} offset={-70}  >
+          <Link to="skills" smooth={true} duration={500} offset={-70}  onClick={handleMenuItemClick}  >
             Skills
           </Link>
         </li>
@@ -57,17 +57,18 @@ useEffect(() => {
             smooth={true} 
             duration={500} 
             offset={-70} 
+             onClick={handleMenuItemClick}
           >
           Education
           </Link>
         </li>
  <li>
-          <Link to="work" smooth={true} duration={500} offset={-70} >
+          <Link to="work" smooth={true} duration={500} offset={-70}  onClick={handleMenuItemClick} >
             Projects
           </Link>
         </li>
  <li>
-          <Link to="contact" smooth={true} duration={500} offset={-70}  >
+          <Link to="contact" smooth={true} duration={500} offset={-70}   onClick={handleMenuItemClick} >
             Contact
           </Link>
         </li>

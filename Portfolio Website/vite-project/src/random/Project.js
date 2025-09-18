@@ -3,7 +3,8 @@ import Quiz from '../assets/Projects/Quiz.png'
 import TicTacToe from '../assets/Projects/Tic-Tac-Toe.png'
 import npmLogo from '../assets/Projects/e commerce.png'
 import taskremLogo from '../assets/Projects/clock.png'
-import webverLogo from '../assets/Projects/web_dig.png'
+
+
 import cmLogo from '../assets/Projects/cm.png'
 
 export const projects = [
@@ -15,6 +16,7 @@ export const projects = [
       image:Quiz,
       tags: ["ReactJS", "Express","Nodejs","MongoDb","HTML", "CSS", "JavaScript"],
       github: "https://github.com/sujeet-bhardwaj/Quiz-Manger-Application",
+      livelink:"https://sinqularity-projects-rr84.vercel.app/"
     },
     {
       id: 1,
@@ -24,6 +26,7 @@ export const projects = [
       image: todo,
       tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
       github: "https://github.com/sujeet-bhardwaj/Todo-App",
+      livelink:"https://sinqularity-projects-rr84.vercel.app/"
     },
     {
       id: 2,
@@ -33,7 +36,7 @@ export const projects = [
       image: TicTacToe,
       tags: ["React JS","HTML", "CSS", "JavaScript"],
       github: "https://github.com/sujeet-bhardwaj/Tic-Tac-Toe-",
-    
+    livelink:"https://tic-tac-toe-brown-tau.vercel.app/"
     },
     {
       id: 3,
@@ -42,8 +45,8 @@ export const projects = [
         "The E-Commerce Website is a full-stack web application that allows users to browse products, add them to a shopping cart, and complete purchases online..",
       image: npmLogo,
       tags: ["React JS", "Express","Nodejs","MongoDb","HTML", "CSS", "JavaScript" ],
-      github: "https://github.com/codingmastr/cmtk-email-validator",
-      webapp: "https://github.com/sujeet-bhardwaj?tab=repositories",
+      github: "https://github.com/sujeet-bhardwaj?tab=repositories",
+      livelink:"https://sinqularity-projects-rr84.vercel.app/"
     },
     {
       id: 4,
@@ -53,6 +56,7 @@ export const projects = [
       image: taskremLogo,
       tags: ["JavaScript","HTML", "CSS"],
       github: "https://github.com/sujeet-bhardwaj/Visual-Clock",
+      livelink:"https://visual-clock.vercel.app/"
    
     },
     {
@@ -63,6 +67,7 @@ export const projects = [
       image: cmLogo,
       tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
       github: "https://github.com/sujeet-bhardwaj?tab=repositories",
+      livelink:"https://visual-clock.vercel.app/"
     },
   ];  
 

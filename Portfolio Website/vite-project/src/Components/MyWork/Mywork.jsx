@@ -2,6 +2,7 @@ import React from "react";
 import style from "./Mywork.module.css";
 import { projects } from "../../random/Project";
 import { FaGithub } from "react-icons/fa";
+import { MdOutlineLiveTv } from "react-icons/md";
 const Mywork = () => {
   return (
     <div id="work" className={style.mywork}>
@@ -27,11 +28,15 @@ const Mywork = () => {
               </div>
               <div className={style.git}>
                       <a 
-                      href="https://github.com/sujeet-bhardwaj" 
+                      href={work.github} 
                       target="_blank" 
                     >
                       <FaGithub size={30} />
+                    <a href={work.livelink} target="_blank">
+                      <MdOutlineLiveTv size={30} />
                     </a>
+                    </a>
+
                     </div>
             </div>
           </div>
