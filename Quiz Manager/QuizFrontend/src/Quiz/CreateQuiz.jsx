@@ -36,10 +36,9 @@ const CreateQuiz = () => {
      }
     };
 setQuizData(dataobject)
-
  const token = localStorage.getItem("token"); // get saved token
 
-  axios.post("http://localhost:3000/quiz", dataobject, {
+ axios.post("http://localhost:3000/quiz/", dataobject, {
     headers: {
       Authorization: `Bearer ${token}`,   // send token to backend
     },
@@ -115,7 +114,7 @@ setAnswer("")
   };
 
   return (
-    <>
+    
       <div className={style.body}>
         <div className={style.container}>
           <div className={style.heading}>
@@ -126,10 +125,6 @@ setAnswer("")
               value={quizName}
               onChange={changeHandler}
             />
-          </div>
-          <div className={style.input}>
-        
-            <div className={style.questionnumber}>
               <input
                 type="number"
                 placeholder="Question number"
@@ -137,8 +132,6 @@ setAnswer("")
                 value={questionNumber}
                 onChange={changeHandler}
               />
-            </div>
-            <div className={style.questionname}>
               <input
                 type="text"
                 placeholder="enter your Question Name"
@@ -146,8 +139,7 @@ setAnswer("")
                 value={questionName}
                 onChange={changeHandler}
               />
-            </div>
-        
+          </div>
             <div className={style.option}>
               <div className={style.optiona}>
                 <label htmlFor="optionA">A:</label>
@@ -182,19 +174,18 @@ setAnswer("")
                 />
               </div>
             </div>
-          </div>
+       
           <div className={style.answer}>
-            <span>Answer:</span>
-          <input type="text" id="answer" value={answer} onChange={changeHandler} />
-
+           
+          <input type="text" id="answer" value={answer} onChange={changeHandler} placeholder="Input your Answer" />
           </div>
           <div className={style.button}>
             <button onClick={goNext}>Next</button>
             <button onClick={quizCreated}>Create Quiz</button>
           </div>
         </div>
-      </div>
-    </>
+     </div>
+  
   );
 };
 export default CreateQuiz;

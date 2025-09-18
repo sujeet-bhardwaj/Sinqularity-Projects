@@ -53,7 +53,7 @@ setoptionC("")
 setoptionD("")
 setAnswer("")
 alert("quiz created succesfully") 
-navigate("/create")
+navigate("/quiz/create")
 }).catch((err)=>console.log(err))
   };
   // next page
@@ -119,8 +119,8 @@ navigate("/nextquiz")
     <>
       <div className={style.body}>
         <div className={style.container}>
-          <div className={style.input}>
-            <div className={style.questionnumber}>
+          <div className={style.heading}>
+           
               <input
                 type="number"
                 placeholder="Question number"
@@ -128,8 +128,8 @@ navigate("/nextquiz")
                 value={questionNumber}
                 onChange={changeHandler}
               />
-            </div>
-            <div className={style.questionname}>
+        
+         
               <input
                 type="text"
                 placeholder="enter your Question Name"
@@ -137,7 +137,7 @@ navigate("/nextquiz")
                 onChange={changeHandler}
                 value={questionName}
               />
-            </div>
+         </div>
             <div className={style.option}>
               <div className={style.optiona}>
                 <label htmlFor="optionA">A:</label>
@@ -152,9 +152,8 @@ navigate("/nextquiz")
                 <input type="text" id="optionD" value={optionD} onChange={changeHandler} />
               </div>
             </div>
-          </div>
+       
           <div className={style.answer}>
-            <span>answer:</span>
             <input type="text" id="answer" value={answer} onChange={changeHandler} />
           </div>
 

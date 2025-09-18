@@ -30,8 +30,6 @@
   justify-content: center;
   align-items: center;
   gap:10px
-
-
 }
 .quizname input{
   width: 70%;
@@ -41,7 +39,6 @@
     outline: none;
     border-radius: 5px;
     margin-bottom: 10px;
-  
 }
 .questionlist{
 list-style: none;
@@ -56,10 +53,7 @@ list-style: none;
    margin-bottom: 10px;
    border-radius: 5px;
      padding-left: 5px;
-   
 }
-
-
 .common{
 display: flex;
 justify-content: center;
@@ -77,6 +71,7 @@ margin-top: 15px;
   background-color:#D17D3D;
 outline: none;
 border: none;
+cursor: pointer;
 }
 .container input{
    color: #e9e9e9;

@@ -32,14 +32,10 @@ const UpdateProfile = () => {
         }
     },[data])
 
-  // Handle input changes
   const changeHandler = (e) => {
     if (e.target.id === "name") setName(e.target.value);
      if (e.target.id === "email") setEmail(e.target.value);
   };
-
-
-
  
   if (!data) return <div>Loading...</div>;
 
@@ -64,7 +60,7 @@ const  changeSave=async()=>{
     <div className={style.body}>
       <div className={style.container}>
           <h1 className={style.title}>Update your Profile</h1>
-          <div>
+          <div className={style.fname}>
       <input
         type="text"
         id="name"
@@ -72,7 +68,7 @@ const  changeSave=async()=>{
         onChange={changeHandler}
       />
       </div>
-      <div>
+      <div className={style.email}>
       <input
         type="email"
         id="email"
@@ -80,8 +76,8 @@ const  changeSave=async()=>{
         onChange={changeHandler}
       />
       </div>
-      <div>
-        <button onClick={changeSave}>Save changes</button>
+      <div className={style.buttonele}>
+        <button className={style.button} onClick={changeSave}>Save changes</button>
       </div>
     </div>
       </div>

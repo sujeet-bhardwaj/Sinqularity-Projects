@@ -43,3 +43,11 @@ padding:0px 10px ;
 .span{
       cursor: pointer;
 }
+
+@media (max-width:400px){
+  .heading {
+    font-size:large;
+    font-weight:300;
+}
+
+}

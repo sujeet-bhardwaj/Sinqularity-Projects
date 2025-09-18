@@ -19,7 +19,9 @@ const Profile = () => {
   const myreport=()=>{
    navigate("/myreport")
   }
-
+  const imagechange=()=>{
+    navigate("/changeimage")
+  }
 const logouthandler = () => {
   localStorage.removeItem("token");
    localStorage.removeItem("userId");
@@ -45,7 +47,7 @@ const logouthandler = () => {
     <div className={style.body}>
       <div className={style.container}>
         <div className={style.header}>
-          <img src={image} alt="profile" width="45" />
+          <img src={image} alt="profile" width="45" onClick={imagechange}/>
           <div className={style.subheader}>
             <h5>{data?.user?.fullname|| "Loading..."}</h5>
             <h6 className={style.email}>{ data?.user?.email ||" loading..profile email"}</h6> 

@@ -20,6 +20,7 @@ import Report from './Report/Report';
 import UpdateProfile from './Profile/UpdateProfile';
 import Users from './Users/Users';
 import MyReport from './Report/MyReport'
+import Changeimage from './Profile/Changeimage';
  export const MyContext = createContext();
 const App = () => {
      const [login, setlogin] = useState(() => {
@@ -54,6 +55,7 @@ const App = () => {
       <Route path="/updateprofile" element={<UpdateProfile />} />
          <Route path="/user" element={<Users />} />
           <Route path="/myreport" element={<MyReport />} />
+          <Route path="/changeimage" element={<Changeimage />} />
        </Routes>
          </MyContext.Provider>
     </BrowserRouter>

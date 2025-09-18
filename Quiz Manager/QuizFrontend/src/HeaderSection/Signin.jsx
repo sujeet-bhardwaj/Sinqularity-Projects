@@ -15,7 +15,7 @@ const Signin = () => {
 const submitHandler = async () => {
   try {
     const dataobject = {
-      email: email,
+      email:email,
       password: password,
     };
     const res = await axios.post("http://localhost:3000/auth/login", dataobject);
@@ -24,7 +24,6 @@ const submitHandler = async () => {
 
     localStorage.setItem("token", token);
     localStorage.setItem("userId", userId);
-     
     setuserId(userId); 
     alert("login successful");
     setEmail("");

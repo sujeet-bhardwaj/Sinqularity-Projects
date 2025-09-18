@@ -20,7 +20,9 @@ fetchusers()
  },[])
   return (
             <div className={style.body}>
+             
     <div className={style.container}>
+       <h1 className={style.name}>Here all the register user </h1>
       {users && users.map((user, index) => (
   <ul key={index} className={style.box}>
     <li>{user.fullname}</li>

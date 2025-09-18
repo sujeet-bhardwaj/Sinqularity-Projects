@@ -25,6 +25,10 @@
 align-items: center;
 margin-bottom: 10px;
 }
+.header img{
+    cursor: pointer;
+}
+
 .middle div{
     margin-bottom: 20px;
     height: 30px;
